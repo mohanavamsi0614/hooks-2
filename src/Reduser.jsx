@@ -13,11 +13,11 @@ function Reduser(props) {
         }
     }
     return(
-        <>
+        <div className="item">
         <h1>{state}</h1>
         <button onClick={()=>{dispatch(state==intisla ? "true" : "false") 
         console.log(state==intisla ? "true" : "false")}}>Hide</button>
-        </>
+        </div>
     )
 }
 export default Reduser;
